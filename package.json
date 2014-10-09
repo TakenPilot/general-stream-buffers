@@ -1,0 +1,12 @@
+{
+  "name": "general-stream-buffers",
+  "version": "0.0.1",
+  "description": "Generic Read and Write Stream implementations. Can also emit errors.",
+  "keywords": ["stream", "readable", "writable"],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Dane Stuckel",
+  "license": "ISC"
+}
