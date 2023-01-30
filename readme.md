@@ -1,17 +1,20 @@
 General Stream Buffers
 ----------------------
 
-##Readable Stream
+> **⚠ Warning**
+> This library is deprecated since this is no longer needed in later versions of nodejs.
+
+## Readable Stream
 
 * Emits 'readable' event when new data is added to stream.
 * Makes no assumptions about what is streamed (files, objects, etc.)
 * Use as per http://nodejs.org/api/stream.html#stream_class_stream_readable
 
-##Writable Stream
+## Writable Stream
 
 * Use as per http://nodejs.org/api/stream.html#stream_class_stream_writable
 
-##Streams for Testing
+## Streams for Testing
 
 If you're trying to mock a string stream, look at https://www.npmjs.org/package/stream-buffers .  They break up the
 stream into consistent pieces, and control the flow of raw data.
